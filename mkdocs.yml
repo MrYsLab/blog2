@@ -1,0 +1,12 @@
+site_name: Mister Y's Lab Notes
+theme:
+  name: material
+  features:
+    - navigation.sections
+plugins:
+  - blog:
+      blog_dir: .
+  - search
+  - tags
+nav:
+  - index.md
