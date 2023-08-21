@@ -1,12 +1,22 @@
-site_name: Mister Y's Lab Notes
+site_name: "Mister Y's Lab Notes"
+site_description: 'What is happening in the lab!'
+site_author: 'Alan Yorinks'
+site_url: 'https://andre601.ch/blog'
+
+copyright: |
+  &copy; Alan Yorinks
+
+docs_dir: docs/
+
 theme:
-  name: material
-  features:
-    - navigation.sections
+  name: 'material'
+
+nav:
+  - Blog: index.md
+
 plugins:
+  - search
+  #- awesome-pages # Doesn't seem to be supported by the blog plugin (yet)
   - blog:
       blog_dir: .
-  - search
-  - tags
-nav:
-  - index.md
+      draft_if_future_date: true
