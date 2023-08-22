@@ -10,4 +10,24 @@
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://andre601.ch/blog/blog/2023/01/31/hello-world/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://andre601.ch/blog/blog/archive/2023/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://andre601.ch/blog/blog/category/hello/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://andre601.ch/blog/blog/category/world/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
