@@ -6,8 +6,6 @@ site_url: 'https://andre601.ch/blog'
 copyright: |
   &copy; Alan Yorinks
 
-docs_dir: docs/
-
 theme:
   name: 'material'
 
@@ -18,12 +16,9 @@ features:
     - content.code.annotate
 
 nav:
-  - Blog: index.md
-  - Tags: tags.md
-
+  - Blog:
+      - blog/index.md
 plugins:
   - search
-  #- awesome-pages # Doesn't seem to be supported by the blog plugin (yet)
   - blog:
-      blog_dir: .
-      draft_if_future_date: true
+      blog_dir: blog
